@@ -7,6 +7,9 @@ fun main(args: Array<String>) {
     // To prints the all data from the data class
     println(gadget2.toString())
 
+    // To prints hash code of the data class
+    println(gadget1.hashCode())
+
     // Here we can chagne the value of name  by COPY()
     var brand = gadget1.copy(name = "Laptop")
     println(brand)
